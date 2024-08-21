@@ -3,7 +3,7 @@ import { Typography } from '@mui/material'
 import "../styles/Navbar.css"
 function Navbar() {
   return (
-    <div>
+    <div className='navbar-container'>
         <Typography className='text heading stats'>STATS</Typography>
         <Typography className='text heading skills'>SKILLS</Typography>
         <Typography className='text heading game'>GAME</Typography>

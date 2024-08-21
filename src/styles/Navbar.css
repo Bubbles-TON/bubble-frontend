@@ -1,3 +1,10 @@
 .heading{
     color: white;
 }
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    text-align: center;
+}
