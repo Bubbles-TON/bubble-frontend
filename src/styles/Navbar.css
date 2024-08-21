@@ -1,6 +1,7 @@
 .heading{
     color: white;
 }
+
 .navbar-container{
     display: flex;
     flex-direction: row;

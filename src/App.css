@@ -10,11 +10,22 @@ body{
   margin: auto;
 }
 .text{
-  font-family: "Marcellus", serif;
+  font-family: "Marcellus", serif !important;
+  color: white !important;
 }
 .navbar-main{
   position: fixed;
   bottom: 0;
-  width: 20rem;
+  width: 350px;
   margin:auto;
+  text-align: center;
+}
+.large{
+  font-size:2rem;
+}
+.noLH{
+  line-height: 0.3;
+}
+.small{
+  font-size: 0.8rem;
 }

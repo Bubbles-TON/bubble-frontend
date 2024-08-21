@@ -1,0 +1,49 @@
+.wallet-top-container{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.2); 
+    border-radius:15px ;
+
+}
+.wallet-top-container img{
+    width:6rem;
+}
+.wallet-middle-container .bubble-section{
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    width: 50%;
+    text-align: center; 
+    justify-content: center; 
+    margin: auto;
+}
+.bubble-section img {
+    max-width: 70%; 
+    height: auto; 
+}
+.wallet-middle-container {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(39, 39, 39, 0.2); 
+    position: relative;
+    top:2rem;
+}
+.bubble-earned-text{
+    font-size: 1.6rem;
+}
+.bubble-information-container{
+    text-align: center;
+}
+.connect-wallet{
+    background-color: #030105 !important;
+    text-transform: none !important;
+    padding: 1rem !important;
+}
+.connect-btn-div{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-bottom: 1rem;
+}
