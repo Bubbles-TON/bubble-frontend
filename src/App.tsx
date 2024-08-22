@@ -7,7 +7,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom'
-
+import Refer from './pages/Refer'
 import Wallet from './pages/Wallet'
 function App() {
 
@@ -22,6 +22,7 @@ function App() {
             {/* <Route path="/home" element={<Homepage />} />
             <Route path="/" element={<Homepage />} /> */}
             <Route path="/wallet" element={<Wallet />} />
+            <Route path="/refer" element={<Refer />} />
             
           </Routes>
         </Router>
