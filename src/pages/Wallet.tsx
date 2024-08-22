@@ -18,7 +18,7 @@ function Wallet() {
         }
     };
     return (
-        <div style={{ width: "350px" }}>
+        <div style={{ width: "430px" }}>
             <div className='wallet-top-container'>
                 <p className='text'>When the bubble disappears,</p>
                 <p className='text large noLH'>$Bubble</p>
@@ -40,6 +40,9 @@ function Wallet() {
                     <p className='text small'>Increase bubble earnings by leveling up</p>
                 </div>
                 <div className='connect-btn-div'>
+                    <p className='text large'>Link Your Wallet</p>  
+                    <p className='text'>username</p>  
+                    <p className='text'>TelegramID</p>  
                     <Button className='connect-wallet text' onClick={handleConnectWallet}>
                         Connect Wallet
                     </Button>

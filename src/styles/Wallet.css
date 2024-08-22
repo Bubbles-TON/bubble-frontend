@@ -28,6 +28,8 @@
     background-color: rgba(39, 39, 39, 0.2); 
     position: relative;
     top:2rem;
+    padding-bottom: 1rem;
+
 }
 .bubble-earned-text{
     font-size: 1.6rem;
@@ -35,15 +37,18 @@
 .bubble-information-container{
     text-align: center;
 }
-.connect-wallet{
+.connect-wallet {
     background-color: #030105 !important;
     text-transform: none !important;
     padding: 1rem !important;
+    width: 50% !important; 
+    max-width: 50%; 
 }
-.connect-btn-div{
+
+.connect-btn-div {
     width: 100%;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    padding-bottom: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

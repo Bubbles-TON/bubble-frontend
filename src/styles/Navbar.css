@@ -9,3 +9,14 @@
     width:100%;
     text-align: center;
 }
+.navbar-container p{
+    flex:1;
+    padding: 1rem;
+}
+.text.heading {
+    transition: transform 0.2s ease-in-out;
+}
+
+.enlarged {
+    transform: scale(1.2);
+}

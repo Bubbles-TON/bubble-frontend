@@ -2,7 +2,7 @@
 
 body{
   width: 100%; /* Adjust to the screen width */
-  max-width: 360px; /* Set a max width for mobile screens */
+  max-width: 430px; /* Set a max width for mobile screens */
   height: auto; /* Maintain aspect ratio */
   min-height: 640px; /* Ensure minimum height */
   box-sizing: border-box; /* Include padding and borders in the element's total width and height */
@@ -16,7 +16,7 @@ body{
 .navbar-main{
   position: fixed;
   bottom: 0;
-  width: 350px;
+  width: 430px;
   margin:auto;
   text-align: center;
 }
