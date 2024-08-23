@@ -1,0 +1,74 @@
+.progress-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    width: 80%;
+    height: 30px;
+    background-color: #222;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progress-filled {
+    background-color: purple;
+    height: 100%;
+    transition: width 0.5s ease;
+  }
+  
+  .progress-points {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
+  .point {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .point span {
+    z-index: 1;
+  }
+  
+  .point .potion {
+    position: absolute;
+    top: -20px;
+    background-color: purple;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  .point.filled span {
+    background-color: purple;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .point.filled .potion {
+    background-color: white;
+    color: purple;
+  }
+  
+  input[type="range"] {
+    margin-top: 20px;
+  }
+  

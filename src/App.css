@@ -1,5 +1,7 @@
 /* Global config */
-
+#root{
+  width: 100%;
+}
 body{
   width: 100%; /* Adjust to the screen width */
   max-width: 430px; /* Set a max width for mobile screens */
@@ -22,6 +24,9 @@ body{
 }
 .large{
   font-size:2rem;
+}
+.medium{
+  font-size:1.5rem;
 }
 .noLH{
   line-height: 0.3;

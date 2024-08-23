@@ -1,4 +1,40 @@
 .friends-invited-container{
     background-color: rgba(39, 39, 39, 0.2); 
+    width: 80%;
+    margin: auto;
+    border-radius:15px ;
+    padding: 0.5rem;
+}
+.refer-desc{
+    margin: auto;
+    text-align: center;
 
+}
+.shards-earned-container{
+    background-color: rgba(39, 39, 39, 0.2); 
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 15px;
+    text-align: center;
+}
+.shards-earned-container img{
+    height:4rem;
+}
+.connect-wallet {
+    background-color: #030105 !important;
+    text-transform: none !important;
+    padding: 1rem !important;
+    width: 50% !important; 
+    max-width: 50%; 
+}
+.claim-btn {
+    background-color: #030105 !important;
+    text-transform: none !important;
+    padding: 0.5rem !important;
+    width: 50% !important; 
+    max-width: 50%; 
+    font-size: 1.2rem !important;
+    color: white !important;
 }
