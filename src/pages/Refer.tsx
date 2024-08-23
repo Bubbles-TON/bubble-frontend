@@ -1,4 +1,3 @@
-import React from 'react'
 import "../styles/Refer.css"
 import { Box, Button } from '@mui/material'
 import { useState } from 'react'

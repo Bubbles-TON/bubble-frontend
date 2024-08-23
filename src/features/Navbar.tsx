@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState,useEffect } from 'react';
 import { Typography } from '@mui/material'
 import "../styles/Navbar.css"
