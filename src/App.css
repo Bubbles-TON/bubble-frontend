@@ -12,7 +12,7 @@ body{
   margin: auto;
 }
 .text{
-  font-family: "Marcellus", serif !important;
+  font-family: "Consolas" !important;
   color: white !important;
 }
 .navbar-main{
