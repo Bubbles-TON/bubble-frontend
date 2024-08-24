@@ -1,74 +1,102 @@
-.progress-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .progress-bar {
-    width: 80%;
-    height: 30px;
-    background-color: #222;
-    border-radius: 15px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .progress-filled {
-    background-color: purple;
-    height: 100%;
-    transition: width 0.5s ease;
-  }
-  
-  .progress-points {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-  }
-  
-  .point {
-    position: relative;
-    width: 50px;
-    height: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-weight: bold;
-  }
-  
-  .point span {
-    z-index: 1;
-  }
-  
-  .point .potion {
-    position: absolute;
-    top: -20px;
-    background-color: purple;
-    padding: 2px 5px;
-    border-radius: 5px;
-    font-size: 12px;
-    color: #fff;
-  }
-  
-  .point.filled span {
-    background-color: purple;
-    border-radius: 50%;
-    padding: 5px;
-  }
-  
-  .point.filled .potion {
-    background-color: white;
-    color: purple;
-  }
-  
-  input[type="range"] {
-    margin-top: 20px;
-  }
-  
+.progress-container{
+  height:40px;
+  position: relative;
+  margin-top: 5rem;
+}
+.progress-tube{
+  width:80%;
+  height:10px;
+  background-color: white;
+  margin: auto;
+  border-radius:15px ;
+  position: relative;
+}
+.progress-tube-color{
+  background-color: purple;
+  height:10px;
+
+  z-index: 1;
+}
+.point {
+  background-color: white;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  position: absolute; /* Position the circle relative to the tube */
+  top: -11px; /* Move the circle upwards */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+.one {
+  left: 0%; /* Position at the start (left) of the tube */
+}
+
+.five {
+  left: 29%; /* Position at 25% of the tube */
+}
+
+.ten {
+  left: 60%; /* Position at 50% (center) of the tube */
+}
+
+.fifteen {
+  left: 88%; /* Position at 75% of the tube */
+}
+.potion{
+  position: absolute;
+  display: flex; 
+  align-items: center; 
+  color: white;
+}
+.potion1 {
+  top: -30px;
+  left:0px
+
+}
+
+.potion1 img {
+  width: 1rem;
+  margin-right: 0.3rem;
+}
+
+.potion-text {
+  font-size: 1rem; 
+}
+.potion2 {
+  top: -35px;
+  left:0px
+
+}
+
+.potion2 img {
+  width: 1.2rem;
+  margin-right: 0.3rem; 
+}
+
+
+.potion3 {
+  top: -40px;
+  left:0px
+
+}
+
+.potion3 img {
+  width: 1.4rem;
+  margin-right: 0.3rem; 
+}
+
+
+.potion4 {
+  top: -45px;
+  left:0px
+}
+
+.potion4 img {
+  width: 1.6rem;
+  margin-right: 0.3rem; 
+}
+
+

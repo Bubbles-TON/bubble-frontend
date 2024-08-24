@@ -38,3 +38,25 @@
     font-size: 1.2rem !important;
     color: white !important;
 }
+.friends-box{
+    display: flex;
+    flex-direction: row;
+}
+.avatar-container {
+    position: relative;
+    width: fit-content; /* Adjust to the size of the content */
+  }
+  
+  .border-img {
+    display: block;
+    width: 5rem; /* Ensure the border image scales properly */
+  }
+  
+  .avatar-img {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the avatar */
+    width: 3.5rem; /* Adjust the size of the avatar as needed */
+  }
+  
