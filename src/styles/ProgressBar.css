@@ -1,7 +1,7 @@
 .progress-container{
   height:40px;
   position: relative;
-  margin-top: 3rem;
+  margin-top: 3.5rem;
 }
 .progress-tube{
   width:90%;
@@ -19,10 +19,10 @@
 .point {
   background-color: white;
   border-radius: 50%;
-  height: 27px;
-  width: 27px;
+  height: 35px;
+  width: 35px;
   position: absolute; /* Position the circle relative to the tube */
-  top: -10px; /* Move the circle upwards */
+  top: -15px; /* Move the circle upwards */
   display: flex;
   justify-content: center;
   align-items: center;
