@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Consolas';
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+.game-container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    max-width: 100vw; /* Full width to adapt to different screen sizes */
+    padding: 10px;  /* Added padding for spacing */
+    background-color: #0d0d0d;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.energy-bar, .shards {
+    display: flex;
+    align-items: center;
+}
+
+.energy-bar, .shards {
+    background-color: #333;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.header-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.level-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+/* Profile container for layering border and profile image */
+.profile-container {
+    position: relative;
+    width: 80px;  /* Adjust size as needed */
+    height: 80px;
+}
+
+.border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.profile {
+    position: absolute;
+    top: 10px;  /* Adjust to center the profile inside the border */
+    left: 10px;
+    width: calc(100% - 20px);  /* Adjust size to fit inside the border */
+    height: calc(100% - 20px);
+}
+
+.level {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.bubble-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 20px 0;
+}
+
+.bubble {
+    width: 60vw;  /* Adjusted bubble size */
+    max-width: 300px;
+    height: auto;
+}
+
+.bubble-text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 10px 0;
+}
