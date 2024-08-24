@@ -1,11 +1,11 @@
 .progress-container{
   height:40px;
   position: relative;
-  margin-top: 5rem;
+  margin-top: 3.5rem;
 }
 .progress-tube{
-  width:80%;
-  height:10px;
+  width:90%;
+  height:5px;
   background-color: white;
   margin: auto;
   border-radius:15px ;
@@ -13,8 +13,7 @@
 }
 .progress-tube-color{
   background-color: purple;
-  height:10px;
-
+  height:5px;
   z-index: 1;
 }
 .point {
@@ -23,7 +22,7 @@
   height: 35px;
   width: 35px;
   position: absolute; /* Position the circle relative to the tube */
-  top: -11px; /* Move the circle upwards */
+  top: -15px; /* Move the circle upwards */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,36 +65,36 @@
   font-size: 1rem; 
 }
 .potion2 {
-  top: -35px;
+  top: -33px;
   left:0px
 
 }
 
 .potion2 img {
-  width: 1.2rem;
+  width: 1.1rem;
   margin-right: 0.3rem; 
 }
 
 
 .potion3 {
-  top: -40px;
+  top: -36px;
   left:0px
 
 }
 
 .potion3 img {
-  width: 1.4rem;
+  width: 1.2rem;
   margin-right: 0.3rem; 
 }
 
 
 .potion4 {
-  top: -45px;
+  top: -39px;
   left:0px
 }
 
 .potion4 img {
-  width: 1.6rem;
+  width: 1.3rem;
   margin-right: 0.3rem; 
 }
 

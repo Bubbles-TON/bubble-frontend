@@ -2,8 +2,29 @@
     background-color: rgba(39, 39, 39, 0.2); 
     width: 80%;
     margin: auto;
+    height:550px;
+    overflow-y: scroll;
+    overflow-x: hidden;
     border-radius:15px ;
     padding: 0.5rem;
+}/* For Chrome, Edge, and Safari */
+.friends-invited-container::-webkit-scrollbar {
+    width: 8px; /* Adjust the width of the scrollbar */
+}
+
+.friends-invited-container::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+}
+
+.friends-invited-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0); /* Transparent thumb */
+    border-radius: 10px;
+}
+
+/* For Firefox */
+.friends-invited-container {
+    scrollbar-width: thin; /* Thin scrollbar */
+    scrollbar-color: transparent transparent; /* Transparent thumb and track */
 }
 .refer-desc{
     margin: auto;
@@ -35,8 +56,16 @@
     padding: 0.5rem !important;
     width: 50% !important; 
     max-width: 50%; 
-    font-size: 1.2rem !important;
     color: white !important;
+}
+.claim-btn .bigBtn{
+    font-size: 1.2rem !important;
+
+}
+.claim-btn .smallBtn{
+    font-size: 0.8rem !important;
+    font-family: "Marcellus", serif !important;
+
 }
 .friends-box{
     display: flex;
@@ -49,7 +78,8 @@
   
   .border-img {
     display: block;
-    width: 5rem; /* Ensure the border image scales properly */
+    width: 5.5rem; 
+    height:7rem
   }
   
   .avatar-img {
